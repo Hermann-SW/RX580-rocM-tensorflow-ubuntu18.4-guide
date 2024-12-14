@@ -1,8 +1,10 @@
-# Installation of ROCm and Tensorflow on Ubuntu 18.4 LTS for Radeon RX580 
-**This guide was updated as of 25.01.2021 due to new version of tensorflow-rocm being incompatible.**
+# Installation of ROCm and Tensorflow on Ubuntu 18.04.5 LTS for Radeon RX580  
+**This guide was updated as of 12.14.2024 because wayne0320 did not state which Ubuntu 18.4 version is the needed one.**
+
+*This guide was updated as of 25.01.2021 due to new version of tensorflow-rocm being incompatible.*
 
 
-This guide will show you how to set up your **clean Ubuntu 18.4  LTS** OS to be ready to run **Tensorflow** projects, using **ROCm** to take advantage of the power of your **RX580 graphics card (or any gfx803)** in a tested, easy and fast way (It should work on other supported Ubuntu versions and other graphic cards too, with only slight changes).
+This guide will show you how to set up your **clean Ubuntu 18.04.5  LTS** OS to be ready to run **Tensorflow** projects, using **ROCm** to take advantage of the power of your **RX580 graphics card (or any gfx803)** in a tested, easy and fast way (It should work on other supported Ubuntu versions and other graphic cards too, with only slight changes).
 
 It is basically a resume of the [official guide by AMD](https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html), and the [unofficial guide by Mathieu Poliquin](https://www.videogames.ai/Install-ROCM-Machine-Learning-AMD-GPU). I highly recommend to check those links, in order to understand what you are doing and why.
 
